@@ -35,7 +35,7 @@ If($option -eq "2")
 
  If($option -eq "3")
 {
-    $hexa = Read-host "dime el numero decimal"
+    $hexa = Read-host "dime el numero hexadecimal"
     $valor=[convert]::ToInt32($hexa,16)
     $valor=[convert]::ToString($valor,2)
     "el numero es..." + $valor
